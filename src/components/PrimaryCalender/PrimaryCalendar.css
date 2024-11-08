@@ -1,0 +1,7 @@
+#pri-calendar .ant-picker-calendar-date-content::-webkit-scrollbar {
+    display: none;
+}
+/* 
+#pri-calendar .ant-picker-calendar-date-content {
+    overflow: hidden !important;
+} */

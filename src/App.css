@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  padding: 10px 100px;
+  width: calc(100vw - 200px);
+  height: calc(100vh - 20px);
+}
+
+@media screen and (max-width: 720px) {
+  .App {
+    padding: 0px;
+    width: 100%;
+    height: auto
+
+  }
 }
 
 .App-logo {
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
