@@ -1,0 +1,73 @@
+{
+  "events": [
+    {
+      "title": "First Session with Alex Stan",
+      "start": "2024-11-08 09:00 AM",
+      "end": "2024-11-08 09:30 AM",
+      "type": "Appointment",
+      "repeat": "week",
+      "clientAvatar": "",
+      "client": ""
+    },
+    {
+      "title": "Webinar: How to cope with trauma in professional life",
+      "start": "2024-11-08 09:00 AM",
+      "end": "2024-11-08 09:30 AM",
+      "type": "Event",
+      "repeat": "month"
+    },
+    {
+      "title": "Chemistry Session with Alex Stan",
+      "start": "2024-11-08 09:00 AM",
+      "end": "2024-11-08 09:30 AM",
+      "type": "Appointment",
+      "clientAvatar": "",
+      "client": ""
+    },
+    {
+      "title": "Second Session with Alex Stan",
+      "start": "2024-11-12 09:00 AM",
+      "end": "2024-11-12 09:30 AM",
+      "type": "Appointment",
+      "repeat": "year",
+      "clientAvatar": "",
+      "client": ""
+    },
+    {
+      "title": "Third Session with Alex Stan",
+      "start": "2024-11-12 09:00 AM",
+      "end": "2024-11-12 09:30 AM",
+      "type": "Event"
+    },
+    {
+      "title": "Webinar: How to cope with trauma in professional life",
+      "start": "2024-11-15 09:00 AM",
+      "end": "2024-11-15 09:30 AM",
+      "type": "Appointment",
+      "clientAvatar": "",
+      "client": ""
+    },
+    {
+      "title": "Fourth Session with Alex Stan",
+      "start": "2024-11-30 09:00 AM",
+      "end": "2024-11-30 09:30 AM",
+      "type": "Appointment",
+      "clientAvatar": "",
+      "client": ""
+    },
+    {
+      "title": "Fifth Session with Alex Stan",
+      "start": "2024-12-01 09:00 AM",
+      "end": "2024-12-01 09:30 AM",
+      "type": "Event"
+    },
+    {
+      "title": "Biology Session with Alex Stan",
+      "start": "2024-12-02 09:00 AM",
+      "end": "2024-12-02 09:30 AM",
+      "type": "Appointment",
+      "clientAvatar": "",
+      "client": ""
+    }
+  ]
+}

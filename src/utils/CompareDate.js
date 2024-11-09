@@ -8,13 +8,13 @@ export const compareDayAndMonth = (date1, date2) => {
 };
 
 export const getCurrentDate = (date) => {
-  const day = ("0" + date.getDate()).slice(-2);
-  const month = ("0" + (date.getMonth() + 1)).slice(-2);
-  const year = date.getFullYear();
+  const day = ("0" + new Date(date).getDate()).slice(-2);
+  const month = ("0" + (new Date(date).getMonth() + 1)).slice(-2);
+  const year = new Date(date).getFullYear();
   return `${day}/${month}/${year}`;
 };
 export const getCurrentTime = (date) => {
-  const hour = ("0" + date.getHours()).slice(-2);
-  const min = ("0" + date.getMinutes()).slice(-2);
+  const hour = ("0" + new Date(date).getHours()).slice(-2);
+  const min = ("0" + new Date(date).getMinutes()).slice(-2);
   return `${hour}:${min}`;
 };

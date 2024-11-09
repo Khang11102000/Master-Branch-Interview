@@ -12,3 +12,17 @@ export const monthShortName = [
   "Nov",
   "Dec",
 ];
+export const monthLongName = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];

@@ -1,7 +1,18 @@
 #pri-calendar .ant-picker-calendar-date-content::-webkit-scrollbar {
     display: none;
 }
+
 /* 
 #pri-calendar .ant-picker-calendar-date-content {
     overflow: hidden !important;
 } */
+
+@media screen and (max-width: 900px) {
+    .date-text {
+        font-size: 14px !important;
+
+    }
+    .flex-header {
+        padding: 5px !important
+    }
+}

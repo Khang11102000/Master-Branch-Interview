@@ -20,7 +20,7 @@ function MinCalender({ events, onSelect, setDate, date }) {
             <Flex justify="center" align="center" className="p-1">
               <Button
                 type="link"
-                onClick={() => setDate(date.add(2, "months"))}
+                onClick={() => setDate(date.add(-1, "months"))}
                 icon={<LeftOutlined />}
                 style={{ color: "#0F4C81" }}
               ></Button>
@@ -29,13 +29,12 @@ function MinCalender({ events, onSelect, setDate, date }) {
               }, ${value.year()}`}</Text>
               <Button
                 type="link"
-                onClick={() => setDate(date.add(-2, "months"))}
+                onClick={() => setDate(date.add(1, "months"))}
                 icon={<RightOutlined />}
                 style={{ color: "#0F4C81" }}
               ></Button>
             </Flex>
           )}
-          cellRender={(value) => <div style={{ borderRadius: "20px" }}></div>}
         />
 
         <Divider />
@@ -49,7 +48,7 @@ function MinCalender({ events, onSelect, setDate, date }) {
               title={item.title}
               duration={`${getCurrentTime(item.start)} - ${getCurrentTime(
                 item.end
-              )} GMT+${item.start.getUTCDate()}`}
+              )} GMT+${new Date(item.start).getUTCDate()}`}
               type={item.type}
               client={item.client}
               clientAvatar={item.clientAvatar}
